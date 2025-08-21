@@ -24,4 +24,7 @@ def read_root():
 
 from .import auth_utils
 
-
+# from faceoff.routers import router as faceoff_router
+# app.include_router(faceoff_router)
+from app.faceoff.routers import router as faceoff_router
+app.include_router(faceoff_router)

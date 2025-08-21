@@ -1,0 +1,11 @@
+Legacy-Link/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   └── auth.py
+│   └── ... (other files)
+├── venv/
+├── .env
+└── ...
